@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &171300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 471300}
+  - 114: {fileID: 11471300}
+  m_Layer: 0
+  m_Name: Character UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &471300
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11471300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dca2ca54801ffa4d871617a07a5b11c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_emptyTexture: {fileID: 2800000, guid: 7075d8f91d63bb14abaa8382ef42d414, type: 3}
+  health_fullTexture: {fileID: 2800000, guid: 003e5555a1f25e54da15a96655c7c60f, type: 3}
+  health_icon: {fileID: 2800000, guid: cf3cc1b5e5bab224297a935ff36d739c, type: 3}
+  heat_emptyTexture: {fileID: 2800000, guid: 93b870b34a8c9774da207071f916e358, type: 3}
+  heat_fullTexture: {fileID: 2800000, guid: 72e95f7d15f9b344b868672b9f2fa3b6, type: 3}
+  heat_icon: {fileID: 2800000, guid: 891ebbfca3cb02040be3770250885cab, type: 3}
+  fullness_emptyTexture: {fileID: 2800000, guid: bdcfd022c6a5e7943aa23b5f8a732d9e,
+    type: 3}
+  fullness_fullTexture: {fileID: 2800000, guid: 415de5405f3cdcb49b0f78b5a970219d,
+    type: 3}
+  fullness_icon: {fileID: 2800000, guid: 52e27996ef03bed4db967571f98a1a43, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 171300}
+  m_IsPrefabParent: 1
