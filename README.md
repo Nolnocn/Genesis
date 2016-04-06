@@ -1,5 +1,14 @@
 # Genesis
 
-Game created in 48 hours for Global Game Jam 2015.
+This project is currently being updated to Unity 5. Feel free to take a look, but the game will not function as intended.
 
-This project still needs some TLC to be fully functional in Unity 5. Please stand by.
+## About this Project
+
+**Originally Created:** January, 2014
+
+**Project Duration:** 48 Hours
+
+**Team Size:** 3 people
+
+**Technologies Used:** Unity 4.x
+
