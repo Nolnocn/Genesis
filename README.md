@@ -4,7 +4,7 @@ This project is currently being updated to Unity 5. Feel free to take a look, bu
 
 ## About this Project
 
-**Originally Created:** January, 2014
+**Originally Created:** January 2014
 
 **Project Duration:** 48 Hours
 
